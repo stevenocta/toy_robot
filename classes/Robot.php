@@ -157,11 +157,11 @@ class Robot {
             return false;
         }
 
-        $results =	array(
-                        "X"         =>    $this->x_pos,
-                        "Y"         =>    $this->y_pos,
-                        "Facing"     =>    $this->get_facing_name()
-                    );
+        $results = array(
+            "X"         =>    $this->x_pos,
+            "Y"         =>    $this->y_pos,
+            "Facing"    =>    $this->get_facing_name()
+        );
         return $results;
     }
 
